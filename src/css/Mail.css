@@ -1,0 +1,227 @@
+.mail__tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mail__tools--left {
+  display: flex;
+  align-items: center;
+}
+
+.mail__tools--left > button {
+  color: #000;
+
+  margin: 0 8px;
+}
+.mail__tools--left > button > .MuiSvgIcon-root {
+  height: 20px !important;
+  width: 20px !important;
+}
+.mail__tools--right > button {
+  color: #000;
+}
+.mail__tools--right {
+  display: flex;
+  margin-right: 10px;
+}
+
+.mail {
+  /* flex: 1; */
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 0;
+  height: 90%;
+  margin-bottom: 10px;
+}
+
+.mail__tools--vertLine {
+  width: 1px;
+  height: 20px;
+  background-color: #000;
+}
+
+.mail__setting--language {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mail__settings--page {
+  font-size: 12px;
+}
+
+.mail__tools--right > button {
+  padding: 4px 0;
+  border-radius: 2px;
+}
+
+.mail__tool--right {
+  border-radius: 9999px !important;
+  margin: 0 6px !important;
+  padding: 4px !important;
+}
+
+.mail__body--header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.mail__body--header-top-left {
+  display: flex;
+  align-items: center;
+  margin-left: 64px;
+}
+
+.mail__body--header-top-right {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.mail__body--header-top-right > button > .MuiSvgIcon-root {
+  height: 20px;
+  width: 20px;
+  color: #000;
+}
+
+.mail__header--top-btn {
+  display: flex;
+  /* border-radius: 4px; */
+  overflow: hidden;
+  align-items: center;
+  /* background-color: lightgray; */
+  height: 16px;
+  padding: 2px;
+  margin-top: 2px;
+}
+.mail__body--header-top-left > h2 {
+  padding-bottom: 4px;
+}
+.header__btn--right,
+.header__btn--left {
+  border: none;
+  background-color: lightgray;
+  color: gray;
+  cursor: pointer;
+}
+.header__btn--right {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.header__btn--left {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  padding: 2px;
+}
+.mail__header--top-btn > button > .MuiSvgIcon-root {
+  height: 12px;
+  width: 12px;
+  padding-top: 4px;
+}
+
+/* .mail__header--top-btn:hover {
+  background-color: gray;
+} */
+
+.mail__header--top-btn > button:hover {
+  background-color: gray;
+  color: lightgray;
+}
+
+.mail__body--header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail__body--header-bottom--left {
+  display: flex;
+  align-items: center;
+}
+
+.mail__body--header-logo {
+  margin: 0 12px !important;
+}
+
+.mail__body--header--tome {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.mail__body--header--tome > button {
+  padding: 2px !important;
+  border-radius: 2px !important;
+  margin-top: 4px;
+}
+
+.mail__body--header--tome > button > .MuiSvgIcon-root {
+  height: 16px;
+  width: 16px;
+}
+
+.mail__body--header-bottom--left-wrapper > h3 > span {
+  font-weight: lighter;
+}
+
+.mail__body--header-bottom--left-wrapper > h3 {
+  font-size: 14 px;
+}
+
+.mail__body--header-bottom--right {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.mail__body--header-bottom--right > button {
+  margin: 0 4px;
+}
+
+.mail__body--header-bottom--time {
+  font-size: 14px;
+}
+
+.mail__body--header-bottom--right > button > .MuiSvgIcon-root {
+  height: 20px;
+  width: 20px;
+  color: #000;
+}
+
+.mail__body--reply--btns {
+  margin-left: 54px;
+  position: absolute;
+  bottom: 100px;
+}
+.mail__body--reply--btns > button {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background-color: transparent;
+  border-radius: 9999px !important;
+  height: 32px !important;
+  margin-left: 10px;
+  text-transform: none !important;
+  padding: 0 10px !important;
+  /* position: absolute;
+  bottom: 0;
+  display: flex; */
+}
+
+.mail__body--message {
+  margin-left: 64px;
+  margin-top: 10px;
+}
+.mail__body--reply--btns > button > .MuiSvgIcon-root {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+.mail__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

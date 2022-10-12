@@ -1,0 +1,49 @@
+.emailList {
+  flex: 1;
+  /* overflow: scroll; */
+  border-radius: 20px;
+  background-color: white;
+  overflow: scroll !important;
+}
+
+.emailList__settings--page-btn {
+  border-radius: 2px !important;
+}
+.emailList__settings {
+  display: flex;
+  justify-content: space-between;
+  top: 5px;
+  margin-left: 2px;
+  position: sticky;
+  z-index: 999;
+  /* border-bottom: 1px solid whitesmoke; */
+  background-color: white;
+}
+.emailList__settings--left {
+  padding-left: 10px;
+}
+
+.emailList__settings--right > button > p {
+  font-size: 14px;
+}
+
+.emailList__settting--dropdown {
+  padding: 0 !important;
+  border-radius: 2px !important;
+}
+
+.emailList__setting--language-btn {
+  border-radius: 2px !important;
+  padding: 5px !important;
+}
+
+.emailList__settings--left > button > .MuiSvgIcon-root {
+  height: 20px;
+  width: 20px;
+}
+.emailList__sections {
+  /* position: sticky;
+  top: 0; */
+  display: flex;
+  /* z-index: 999; */
+}

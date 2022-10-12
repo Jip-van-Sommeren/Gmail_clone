@@ -1,0 +1,25 @@
+.sidebarright {
+  width: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sidebarright > button {
+  width: 45px !important;
+  height: 45px !important;
+  padding: 10px !important;
+  margin: 10px 0 !important;
+}
+
+.sidebar-right--calendar {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.sidebar__divide--line {
+  height: 1px;
+  width: 40%;
+  background-color: lightgray;
+}

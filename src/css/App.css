@@ -1,0 +1,9 @@
+.app__body {
+  display: flex;
+  height: 100vh;
+  /* padding: 10px; */
+}
+
+.app {
+  height: 100vh;
+}
